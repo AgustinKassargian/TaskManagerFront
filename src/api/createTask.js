@@ -11,7 +11,7 @@ const createTask = async(user, data, setTodoTasks, setDoneTasks)=>{
         })
         await updateTasks(user, setTodoTasks, setDoneTasks);
     } catch (error) {
-        console.log();
+        console.log(error);
     }
 }
 

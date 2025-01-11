@@ -40,7 +40,6 @@ const Task = ({ task, index }) => {
   };
 
   const formatDate = (data) => {
-    console.log(data);
     if (data) {
       let date = new Date(data);
 
